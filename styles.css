@@ -1,0 +1,89 @@
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'DS-Digital', sans-serif;                                          
+}
+                                             
+#contenedor{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9BA9BF;
+    /* background-image: url('img/fondo.jpeg'); */
+    background-size: cover;
+    background-position: bottom;
+}
+
+.table{
+    height: 500px;
+    width: 350px;
+    background-color: grey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(91, 125, 177, 100);
+    box-shadow: -5px -5px 0px 3px  rgb(102, 144, 206);
+    transition: ease 350ms;
+}
+
+.table:hover{
+    transform: scale(1.025);
+    transition: ease 350ms;
+}
+
+.table button{
+    height: 75px;
+    width: 75px;
+    font-size: 50px;
+    border-radius: 15px;
+    margin: 2px;
+    font-family: 'DS-Digital', sans-serif;
+    color: rgb(247, 226, 226);
+    border: 2px inset rgb(97, 164, 188);
+    transition: ease-in 50ms;
+}
+
+.table button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: ease-in 50ms;
+}
+
+.table button:focus{
+    outline: none;
+}
+
+#restar, #dividir, #multiplicar, #sumar, #igual, #reset{
+    background-color: rgb(26, 19, 47);
+} 
+
+#restar, #sumar, #igual{
+    font-size: 55px;
+} 
+
+.resultado{
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    height: 75px;
+    width: 325px;
+    max-width: 325px;
+    font-size: 35px;  
+}
+
+.display{
+    margin-bottom: 15px;
+}
+
+.cuerpo{
+    margin-bottom: 15px;
+}
+
+#uno, #dos, #tres, #cuatro, #cinco, #seis, #siete, #ocho, #nueve, #cero{
+    background-color: rgb(97, 164, 188);
+}
